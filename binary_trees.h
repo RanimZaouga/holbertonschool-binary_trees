@@ -55,4 +55,15 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 void binary_tree_print(const binary_tree_t *);
 
+void aux_height(const binary_tree_t *tree, size_t node_h, size_t *height);
+int is_leaf(const binary_tree_t *node);
+
+
+int height(const binary_tree_t *tree);
+int max(int a, int b);
+
+
+int aux_is_perfect(const binary_tree_t *tree, int refer_d, int level);
+int refer_d_left(const binary_tree_t *tree);
+
 #endif
